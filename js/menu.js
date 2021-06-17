@@ -27,8 +27,8 @@ data-id="343c6450" data-element_type="section">
                                                                            <div class="elementor-widget-container">
                                                                                <div class="flex-container topmenu layout-grid">
                                                                                    <div class="other-link menu-logo text-align-logo">
-                                                                                       <a href="https://www.axisjp.co.jp/services/revoworks">
-                                                                                           <img src="./RevoWorks_files/revo_mean_logo.png">
+                                                                                       <a href="index.html">
+                                                                                           <img src="./img/revo_mean_logo.png">
                                                                                        </a>
                                                                                    </div>
 
@@ -38,17 +38,17 @@ data-id="343c6450" data-element_type="section">
                                                                                    </div>
 
                                                                                    <div class="other-link level2 layout-bodrer" style="width:70px">
-                                                                                       <a href="" ><h6>料金</h6>	</a>
+                                                                                       <a href="index.html" ><h6>料金</h6>	</a>
                                                                                        																									
                                                                                    </div>
 
                                                                                    <div class="other-link level3 layout-bodrer">
-                                                                                       <a href="about.html" ><h6>お申し込み</h6>	</a>
+                                                                                       <a href="apply.html" ><h6>お申し込み</h6>	</a>
                                                                                        																								
                                                                                    </div>
 
                                                                                    <div class="other-link level4 layout-bodrer">
-                                                                                       <a href="" ><h6>サポート</h6></a>
+                                                                                       <a href="index.html" ><h6>サポート</h6></a>
                                                                                        																										
                                                                                    </div>
                                                                                    <div class="other-link level5 layout-bodrer">

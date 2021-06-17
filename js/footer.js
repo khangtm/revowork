@@ -6,25 +6,25 @@ document.write(`
         <div class="menu-container">
             <ul id="menu-" class="menu">
                 <li id="menu-item-1856" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children menu-item-1856">
-                    <a href="https://www.axisjp.co.jp/services">サービス</a>
+                    <a href="about.html">RevoWorks Browserとは</a>
                 </li>
                 <li id="menu-item-2803" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2803">
-                    <a href="https://www.axisjp.co.jp/about-us">アクシスについて</a>
+                    <a href="index.html">料金</a>
                 </li>
                 <li id="menu-item-1861" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1861">
-                    <a href="https://www.axisjp.co.jp/news">ニュース一覧</a>
+                    <a href="apply.html">お申し込み</a>
                 </li>
                 <li id="menu-item-2822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2822">
-                    <a href="https://www.axisjp.co.jp/security-and-safety">SecurityとSafety</a>
+                    <a href="index.html">サポート</a>
                 </li>
                 <li id="menu-item-2822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2822">
-                    <a href="https://www.axisjp.co.jp/security-and-safety">SecurityとSafety</a>
+                    <a href="login.html">アカウント</a>
                 </li>
                 <li id="menu-item-2822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2822">
-                    <a href="https://www.axisjp.co.jp/security-and-safety">SecurityとSafety</a>
+                    <a href="index.html">よくあるご質問</a>
                 </li>
                 <li id="menu-item-2822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2822">
-                    <a href="https://www.axisjp.co.jp/security-and-safety">SecurityとSafety</a>
+                    <a href="mypage.html">マイページ</a>
                 </li>
             </ul>
         </div>
@@ -33,25 +33,25 @@ document.write(`
         <div class="textwidget custom-html-widget">
             <div class="license">
                 <p>
-                    <a href="https://www.axisjp.co.jp/privacy-mark">
+                    <a href="index.html">
                         <span>プライバシーマーク</span>
                     </a>
-                    <img src="./RevoWorks_files/17000260_06_200_JP.png" alt="Pマーク17000260">
+                    <img src="./img/17000260_06_200_JP.png" alt="Pマーク17000260">
                 </p>
                 <p>
-                    <a href="https://www.axisjp.co.jp/isms">
+                    <a href="index.html">
                         <span>ISMS</span>
                     </a>
-                    <img src="./RevoWorks_files/isms.png" alt="ISMS">
+                    <img src="./img/isms.png" alt="ISMS">
                 </p>
             </div>
             <p style="font-size:12px;">情報セキュリティマネジメントの維持・向上に努め、お客様の信頼をより一層高めることができるよう取り組んでまいります。</p>
             <div class="license">
                 <p>
-                    <a href="https://www.axisjp.co.jp/about-us/company/sme/">
+                    <a href="index.html">
                         <span>Smart SME Supporter</span>
                     </a>
-                    <img src="./RevoWorks_files/tate_RGB200.png" alt="スマートＳＭＥサポーターマーク" style="margin:20px;">
+                    <img src="./img/tate_RGB200.png" alt="スマートＳＭＥサポーターマーク" style="margin:20px;">
                 </p>
                 <p style="font-size:12px; margin-top:15px;">
                     経済産業省中小企業庁の
@@ -69,26 +69,26 @@ document.write(`
     <nav class="menu-1111-container">
         <ul id="menu-1111" class="menu nav">
             <li id="menu-item-2804" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2804">
-                <a href="https://www.axisjp.co.jp/about-us">アクシスについて</a>
+                <a href="index.html">アクシスについて</a>
             </li>
             <li id="menu-item-2219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2219">
-                <a href="https://www.axisjp.co.jp/policy">当サイトのご利用にあたって</a>
+                <a href="index.html">当サイトのご利用にあたって</a>
             </li>
         </ul>
     </nav>
     <nav class="menu-1q1q-container">
         <ul id="menu-1q1q" class="menu nav">
             <li id="menu-item-2804" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2804">
-                <a href="https://www.axisjp.co.jp/about-us">アクシスについて</a>
+                <a href="index.html">アクシスについて</a>
             </li>
             <li id="menu-item-2219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2219">
-                <a href="https://www.axisjp.co.jp/policy">当サイトのご利用にあたって</a>
+                <a href="index.html">当サイトのご利用にあたって</a>
             </li>
             <li id="menu-item-2048" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2048">
-                <a href="https://www.axisjp.co.jp/security-and-safety/privacy-info">個人情報の取扱いについて</a>
+                <a href="index.html">個人情報の取扱いについて</a>
             </li>
             <li id="menu-item-2640" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2640">
-                <a href="https://www.axisjp.co.jp/security-and-safety/security-info">情報セキュリティ基本方針</a>
+                <a href="index.html">情報セキュリティ基本方針</a>
             </li>
         </ul>
     </nav>

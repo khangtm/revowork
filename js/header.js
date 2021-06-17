@@ -2,9 +2,9 @@ document.write(`
 <div class="container siteHeadContainer" style="padding-top: 5px; padding-bottom: 0px;">
 <div class="navbar-header">
     <p class="navbar-brand siteHeader_logo">
-        <a href="https://www.axisjp.co.jp/">
+        <a href="index.html">
             <span class="logo">
-                <img src="./RevoWorks_files/logo.png" alt="株式会社アクシス" style="max-height: 40px;">
+                <img src="./img/logo.png" alt="株式会社アクシス" style="max-height: 40px;">
             </span>
             <span class="name">株式会社アクシス</span>
         </a>
