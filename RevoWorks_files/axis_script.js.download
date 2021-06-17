@@ -1,0 +1,67 @@
+jQuery(function ($) {
+//	$(function(){
+//	var url = window.location;
+//		$('a[href="'+url+'"]').parent().addClass('current');
+//	});
+
+$(function() {
+	var url = location.href;
+	params = url.split("?");
+	spparams = params[1].split("&");
+
+	var paramArray = [];
+	for ( i = 0; i < spparams.length; i++ ) {
+		vol = spparams[i].split("=");
+		paramArray.push(vol[0]);
+		paramArray[vol[0]] = vol[1];
+	}
+
+	if ( paramArray["lp"] == "sophos-integratedsecurity") {
+		$.ajaxSetup({cache:false});
+		$("div#pagejs").load("/wp-content/themes/lightning-child/sophos-active1.html");
+	} else if ( paramArray["lp"] == "sophos-telework") {
+		$.ajaxSetup({cache:false});
+		$("div#pagejs").load("/wp-content/themes/lightning-child/sophos-active2.html");
+	} else {
+	}
+});
+
+	//Whereby確認ページ
+    var ua = navigator.userAgent;
+    if (ua.indexOf('iPhone') > 0 || ua.indexOf('iPad') > 0 || ua.indexOf('macintosh') > -1 && 'ontouchend' in document) {
+        // iPhone用処理
+        $('.elementor-tab-title').removeClass('elementor-active');
+		$('.elementor-tab-content').css('display', 'none');
+        $('.elementor-tab-title[data-tab="2"]').addClass('elementor-active');
+		$('.elementor-tab-content[data-tab="2"]').addClass('elementor-active');
+        $('.elementor-tab-content[data-tab="2"]').css('display', 'block');
+		$('.elementor-tab-title[data-tab="1"]' || '.elementor-tab-title[data-tab="3"]' || '.elementor-tab-title[data-tab="4"]').on('click', function() {
+			$('.elementor-tab-content[data-tab="2"]').css('display', 'none');
+		});
+    } else if (ua.indexOf('Android') > 0 || ua.indexOf('Mobile') > 0) {
+        // スマホ用処理
+        $('.elementor-tab-title').removeClass('elementor-active');
+		$('.elementor-tab-content').css('display', 'none');
+        $('.elementor-tab-title[data-tab="3"]').addClass('elementor-active');
+		$('.elementor-tab-content[data-tab="3"]').addClass('elementor-active');
+        $('.elementor-tab-content[data-tab="3"]').css('display', 'block');
+		$('.elementor-tab-title[data-tab="1"]' || '.elementor-tab-title[data-tab="2"]' || '.elementor-tab-title[data-tab="4"]').on('click', function() {
+			$('.elementor-tab-content[data-tab="3"]').css('display', 'none');
+		});
+    } else {
+        // PC用処理
+    };
+
+	// URLのアンカー（#以降の部分）を取得
+	var urlHash = location.hash;
+	if(urlHash){
+		if (urlHash == '#problem') {
+			$('.elementor-tab-title').removeClass('elementor-active');
+			$('.elementor-tab-content').css('display', 'none');
+			$('.elementor-tab-title[data-tab="4"]').addClass('elementor-active');
+			$('.elementor-tab-content[data-tab="4"]').addClass('elementor-active');
+			$('.elementor-tab-content[data-tab="4"]').css('display', 'block');
+		} else {
+		}
+	};
+});
