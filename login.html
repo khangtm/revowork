@@ -11,7 +11,7 @@
 	<!--Khangtm : load head -->
 	<script type="text/javascript" src="./js/head.js"></script>
 	<link href="./css/index.css" rel="stylesheet">
-
+	<link href="./css/login.css" rel="stylesheet">
 </head>
 
 <body class="page-template page-template-elementor_header_footer page page-id-8171 page-child parent-pageid-10177 sidebar-fix device-pc fa_v5_css headfix header_height_changer elementor-default elementor-template-full-width elementor-kit-3122 elementor-page elementor-page-8171 scrolled"
@@ -39,9 +39,53 @@
 			<div class="elementor-section-wrap">
 				<!--Khangtm : load menu -->
 				<script type="text/javascript" src="./js/menu.js"></script>
-
-
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-d525f23 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+				
+				<!--Khuongdh : top menu start -->
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-16925e38 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section-height" data-id="16925e38" data-element_type="section">
+					<div class="elementor-container elementor-column-gap-no">
+						<div class="elementor-row">
+							<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-54aa4fbf" data-id="54aa4fbf" data-element_type="column">
+								<div class="elementor-column-wrap elementor-element-populated">
+									<div class="elementor-widget-wrap">
+										<div class="elementor-element elementor-element-28f7f432 elementor-widget elementor-widget-shortcode" data-id="28f7f432" data-element_type="widget" data-widget_type="shortcode.default">
+											<div class="elementor-widget-container">
+												<div class="elementor-shortcode">			<!-- Flexy Breadcrumb -->
+													<div class="fbc fbc-page">
+														<!-- Breadcrumb wrapper -->
+														<div class="fbc-wrap">
+															<!-- Ordered list-->
+															<ol class="fbc-items" itemscope="" itemtype="https://schema.org/BreadcrumbList">
+																 <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+																	<span itemprop="name">
+																	<!-- Home Link -->
+																		<a itemprop="item" href="https://www.axisjp.co.jp">
+																			<i class="fa fa-home" aria-hidden="true"></i>トップ  
+																		</a>
+																	</span>
+																	<meta itemprop="position" content="1"><!-- Meta Position-->
+																 </li>
+																＞<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+																	<a itemprop="item" page-parent="106" href="https://www.axisjp.co.jp/services" title="サービス">
+																		<span itemprop="name">マイページ</span>
+																	</a>
+																	<meta itemprop="position" content="2">
+																</li>																
+															</ol>
+															<div class="clearfix"></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>				
+				<!--Khuongdh : top menu end -->
+				
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d525f23 elementor-section-boxed elementor-section-height-default"
 				 data-id="d525f23" data-element_type="section">
 					<div class="elementor-container elementor-column-gap-default">
 						<div class="elementor-row">
@@ -51,9 +95,33 @@
 									<div class="elementor-widget-wrap">
 										<div class="elementor-element elementor-element-fbd9892 contents elementor-widget elementor-widget-heading" data-id="fbd9892"
 										 data-element_type="widget" data-widget_type="heading.default">
-											<div class="elementor-widget-container">
-												<h1 class="elementor-heading-title elementor-size-default">ログイン
-												</h1>
+											<div class="elementor-widget-container grid-lv1 background-login">
+												<h1 class="elementor-heading-title elementor-size">ログイン</h1>
+												<!--Khuongdh : field login start -->
+												<span class="seems-login-error">ログイン情報に間違いがあるようです。</span>		
+																						
+												<form role="search" method="get" id="searchform" class="searchform form-inline" action="https://www.axisjp.co.jp/">
+													<div class="elementor-widget-container grid-lv2">
+														<label for="email" class="text-align-label">メールアドレスを入力</label>
+														<input type="text" value="" name="email" id="email" class="form-control form-group">
+															
+														<label for="password" class="text-align-label">パスワード</label>
+														<input type="text" value="" name="password" id="password" class="form-control form-group">	
+														
+														<div class="padding-checkbox">
+															<input type="checkbox" id="status" name="status" value="">
+															<label for="status">ログイン状態を保持する</label>	
+														</div>
+															
+													</div>												
+														
+													<div class="elementor-widget-container grid-lv1">														
+														<input type="submit" id="searchsubmit" value="ログイン" class="btn btn-primary">
+														<label class="font-weight-label">パスワードをお忘れですか？</label>
+														</div>
+													</form>
+																							
+												<!--Khuongdh : field login end -->
 											</div>
 										</div>
 									</div>
