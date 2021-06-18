@@ -1,3 +1,14 @@
+@media (min-width: 767px) {
+    .elementor-section-height {
+        padding: 2.2em 0 0 0;
+    }    
+}
+
+@media (max-width: 1024px) {
+    .elementor-section-height {
+        padding: 3.5em 0 2em 0;
+    }
+}
 
 .fbc-page .fbc-items > li {
     display: inline-block;
@@ -9,6 +20,10 @@
 
 .fbc-page {
     padding: 15px 15px !important;
+}
+
+.fbc-wrap{
+	padding-left: 15px;
 }
 
 .contents h1{
