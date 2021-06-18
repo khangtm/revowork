@@ -7,6 +7,10 @@
 	background-color: #E2F0D9;
 }
 
+.fbc-page {
+    padding: 15px 15px !important;
+}
+
 .contents h1{
 	margin : 1.5em  2em 0 2em;
 }
@@ -21,8 +25,17 @@ dl, ol, ul {
 	background: #E2F0D9;
 }
 
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 100%;
+}
+
+.elementor-8171 .elementor-element.elementor-element-fbd9892 > .elementor-widget-container {
+    margin: 0 0 2rem 0;
+}
+
 .elementor-section-height {
-	height: 25px;
+	height: 40px;
+	margin: -15px 0 10px 0;
 }
 
 .elementor-size {
@@ -46,7 +59,7 @@ dl, ol, ul {
 	background: #FEE6E7;
 	border: 1px solid #FEE6E7;
 	height: 60px;
-    width: 50%;
+    width: 37%;
 	padding: 20px;
 }	
  .text-align-label {
