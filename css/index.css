@@ -284,7 +284,7 @@ input[type=submit]:hover {
 }
 
 .contents h1 {
-    color: #000!important;
+    color: #000;
     position: relative;
     display: inline-block;
     margin: 2em;
@@ -703,6 +703,7 @@ dt {
 	background-color: #F5B824;
 	margin-top: 2em;
 	width: 60%;
+	border: thick double #FEFBF2;
 }
 
 .elementor-widget:not(:last-child) {
@@ -743,10 +744,10 @@ dt {
 }
 
 .grid-layout {
-	display: grid;
-	grid-template-columns: auto auto auto;
-	grid-gap: 10px;
-	padding: 10px;
+	display: grid !important;
+    grid-template-columns: 38% 38% 38%;
+    grid-gap: 10px;
+    padding: 0 12% 0 0;
 }
 
 .container-title {
