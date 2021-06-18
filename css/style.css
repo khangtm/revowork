@@ -449,7 +449,13 @@ footer .widget_nav_menu ul li a:hover, footer a:hover {
 	color: #337ab7;
 	text-decoration: none;
 }
-.headerMenu a:after, footer a:after {
+.headerMenu a:after {
+	padding-left: 0.3em;
+	font-weight: bold;
+	font-family: "Font Awesome 5 Free";
+}
+
+footer a:after {
 	padding-left: 0.3em;
 	font-weight: bold;
 	font-family: "Font Awesome 5 Free";
