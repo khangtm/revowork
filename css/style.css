@@ -512,21 +512,29 @@ a[href^="mailto:"]:after {
 	}
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:730px) {
 	header .mobileHeader {
 		margin-right: 30px;
 	}
-	.navbar-brand span.name {
+	.navbar-brand  span.name {
 		display: none;
 	}
 	.mobileBrand {
 		display: block;
 	}
+	
 }
+
+@media screen and (max-width:860px) {
+	.navbar-brand  span.name {
+		display: none;
+	}
+}
+
 
 @media screen and (min-width:992px) {
 	body.scrolled .navbar-brand span.name {
-		display: none;
+		display: block;
 	}
 	.headerMenu, .searchBox {
 		display: block;
