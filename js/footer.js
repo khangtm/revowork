@@ -69,10 +69,10 @@ document.write(`
     <nav class="menu-1111-container">
         <ul id="menu-1111" class="menu nav">
             <li id="menu-item-2804" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2804">
-                <a href="index.html">アクシスについて</a>
+                <a href="index.html">会員規則</a>
             </li>
             <li id="menu-item-2219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2219">
-                <a href="index.html">当サイトのご利用にあたって</a>
+                <a href="index.html">サービス利用規則</a>
             </li>
         </ul>
     </nav>
@@ -99,7 +99,7 @@ document.write(`
 <div class="container sectionBox">
     <div class="office">
         <p class="logo">
-            <img src="./RevoWorks_files/logo_axis(1).png" ail="株式会社アクシス">
+            <img src="./img/logo_axis(1).png" ail="株式会社アクシス">
         </p>
         <p class="address">
             <span>〒164-8721　東京都中野区本町1-32-2ハーモニータワー2F</span>
