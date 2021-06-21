@@ -101,6 +101,7 @@
 							<a id="active" onclick="showInfo('active')">アカウント情報</a>
 							<a id="contact" onclick="showInfo('contact')">マイページログイン情報</a>
 							<a id="revoWorksBrowser" onclick="showInfo('revoWorksBrowser')">RevoWorks Browser月額版ソフト</a>
+							<a id="card" onclick="showInfo('card')">カード情報の確認・変更</a>
 							<a href="#about">カード情報</a>
 							<a href="#about">決済履歴</a>
 							<a href="#about">見積/領収ト</a>
@@ -212,6 +213,43 @@
 									<a href="./install.html" >RevoWorks Browser 月額版インストール　＞</a>
 								</div>
 							</div>
+
+							<div id="cardId" style="display: none;">
+								<h2>カード情報の確認・変更</h2>
+								<div class= "text-align-image">
+								<img width="500" height="250" src="./img/image_visa.png" class="attachment-medium_large size-medium_large"
+														 alt="" loading="lazy" srcset="./img/image_visa.png 768w,./img/image_visa.png 300w, ./img/image_visa.png 1024w, ./img/image_visa.png 1198w"
+														 sizes="(max-width: 750px) 100vw, 750px"> </a>
+								</div>
+								<div style="margin: 0 0 3em 15em;">
+									<table style="width:80%">
+										<tr>
+										  <th>ご利用カード</th>
+										  <th>
+											<img width="75" height="75" src="./img/visa.png" class="attachment-medium_large size-medium_large"
+												alt="" loading="lazy" srcset="./img/visa.png 768w, ./img/visa.png 300w, ./img/visa.png 1024w, ./img/visa.png 1198w"
+												sizes="(max-width: 750px) 100vw, 750px"> </a>	
+										  </th>
+										</tr>
+										<tr>
+										  <td>クレジットカード番号</td>
+										  <td>XXXX XXXX XXXX XXXX </td>
+										</tr>
+										<tr>
+										  <td>カード名義</td>
+										  <td>XXXXX XXXXX</td>
+										</tr>
+										<tr>
+											<td>有効期限</td>
+											<td>** / **</td>
+										  </tr>
+									  </table>
+								</div>							
+
+								<div class="text-align-button">
+									<input type="submit" id="searchsubmit" value="カード情報を変更する ＞" class="btn btn-primary">
+								</div>
+							</div>
 						</div>						  						  
 					</div>
 				</section>
@@ -230,6 +268,7 @@
 	var accountId = document.getElementById("accountId");
 	var mailId = document.getElementById("mailId");
 	var revoWorksBrowserId = document.getElementById("revoWorksBrowserId");
+	var cardId = document.getElementById("cardId");
 
 	function showInfo(value){
 		AddRemoveClass(value)
@@ -238,18 +277,27 @@
 				accountId.style.display = "block";
 				mailId.style.display = "none";
 				revoWorksBrowserId.style.display = "none";
+				cardId.style.display = "none";
 				break;
 			
 			case 'contact':
 				accountId.style.display = "none";
 				mailId.style.display = "block";
 				revoWorksBrowserId.style.display = "none";
+				cardId.style.display = "none";
 				break;
 			
 			case 'revoWorksBrowser':
 				accountId.style.display = "none";
 				mailId.style.display = "none";
 				revoWorksBrowserId.style.display = "block";
+				cardId.style.display = "none";
+				break;
+			case 'card':
+				accountId.style.display = "none";
+				mailId.style.display = "none";
+				revoWorksBrowserId.style.display = "none";
+				cardId.style.display = "block";
 				break;
 		}
 	}
@@ -260,19 +308,27 @@
 				document.getElementById("active").classList.add("active");
 				document.getElementById("contact").classList.remove("active");
 				document.getElementById("revoWorksBrowser").classList.remove("active");
+				document.getElementById("card").classList.remove("active");
 				break;
 			
 			case 'contact':
 				document.getElementById("active").classList.remove("active");
 				document.getElementById("contact").classList.add("active");	
 				document.getElementById("revoWorksBrowser").classList.remove("active");
-
+				document.getElementById("card").classList.remove("active");
 				break;
 			
 			case 'revoWorksBrowser':
 				document.getElementById("active").classList.remove("active");
 				document.getElementById("contact").classList.remove("active");	
 				document.getElementById("revoWorksBrowser").classList.add("active");
+				document.getElementById("card").classList.remove("active");
+				break;
+			case 'card':
+				document.getElementById("active").classList.remove("active");
+				document.getElementById("contact").classList.remove("active");	
+				document.getElementById("revoWorksBrowser").classList.remove("active");
+				document.getElementById("card").classList.add("active");
 				break;
 		}
 	}
