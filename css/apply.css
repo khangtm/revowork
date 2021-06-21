@@ -1,0 +1,103 @@
+@media (min-width: 768px){
+    .elementor-column.elementor-col-14, .elementor-column[data-col="14"] {
+        width: 18.285%;
+    }
+}
+
+
+.fbc-page .fbc-items > li {
+    display: inline-block;
+}
+
+.contents h1{
+	margin : 0  2em 0 2em;
+}
+
+.fbc-wrap{
+	padding-left: 15px;
+}
+
+dl, ol, ul {
+    margin-top: 40px;
+    margin-bottom: 0;
+	padding: 0;
+}
+
+.elementor-text-align {
+    text-align: left;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-bottom: 20px;
+}
+.elementor-9695 .elementor-element.elementor-element-2ae3d29f.elementor-column.elementor-element[data-element_type="column"] > .elementor-column-wrap.elementor-element-populated > .elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor embed, .elementor iframe, .elementor object, .elementor video {    
+    border-style: groove;
+}
+
+.li-text-align {
+    text-align: left;
+}
+
+.justify-content-row {
+    justify-content: center;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+.grid-layout-columns-4 {
+    display: grid;
+    grid-template-columns: 75% 20% 13% 26%;
+    grid-column-gap: 15px;
+}
+
+.grid-layout-padding {
+    padding: 8px;
+}
+
+.radio-margin {
+    margin-right: 2em;
+}
+.form-control-heigth{
+    height: 45px;
+}
+.div-padding {
+    padding-top: 13px;
+}
+
+.formsubmit {
+    margin: 0;
+    background-color: #ED7D31;
+}
+
+dd {
+    border-left-color: transparent;
+}
+
+.inquirydll {
+    width: 100%;
+}
+
+.inquirydl {
+    margin-left: 25% !important;
+}
+
+.iframe-heigth {
+    height: 20em !important;
+}
+
+.align-img {
+    align-content: center;
+    align-items: center;
+}
+.align-content {
+    text-align: center;
+}

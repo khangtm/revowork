@@ -1,0 +1,17 @@
+.fbc-page .fbc-items > li {
+    display: inline-block;
+}
+
+.contents h1{
+	margin : 0  2em 0 2em;
+}
+
+.fbc-wrap{
+	padding-left: 15px;
+}
+
+dl, ol, ul {
+    margin-top: 40px;
+    margin-bottom: 0;
+	padding: 0;
+}
