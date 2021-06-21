@@ -133,7 +133,7 @@ ul.gMenu {
 
 .mobileHeader.widget_nav_menu ul li a {
 	padding: 0.2em 0.5em;
-	border: 1px solid #464646;
+	/*border: 1px solid #464646;*/
 	border-radius: 3px;
 }
 .mobileHeader.widget_nav_menu ul li a:hover {
@@ -167,6 +167,26 @@ li.inquiry a:after {
 	font-family: "Font Awesome 5 Free";
 	content: '\f0e0';
 }
+
+li.mypagetop a:after {
+	padding-left: 0.3em;
+	font-weight: bold;
+	font-family: "Font Awesome 5 Free";
+	content: '\f007';
+}
+
+li.building a:after {
+	padding-left: 0.3em;
+	font-weight: bold;
+	font-family: "Font Awesome 5 Free";
+	content: '\f1ad';
+}
+li.faq a:after {
+	padding-left: 0.3em;
+	font-weight: bold;
+	font-family: "Font Awesome 5 Free";
+}
+
 i.otherlink, .otherlink a:after,
 li.axisHP a:after {
 	padding-left: 0.3em;
@@ -284,7 +304,7 @@ body.scrolled .searchBox {
 }
 body.scrolled .headerMenu.widget_nav_menu ul li a {
 	padding: 0.2em 0.5em;
-	border: 1px solid #464646;
+	/*border: 1px solid #464646;*/
 	border-radius: 3px;
 }
 body.scrolled .headerMenu.widget_nav_menu ul li a:hover {
