@@ -12,7 +12,8 @@
 	<!--Khangtm : load head -->
 	<script type="text/javascript" src="./js/head.js"></script>
 	<link href="./css/index.css" rel="stylesheet">
-	<link href="./css/mypage.css" rel="stylesheet">
+	<link href="./css/mypage.css" rel="stylesheet">	
+	
 
 </head>
 
@@ -105,13 +106,31 @@
 											</div>
 											<div>
 												<form role="search" method="get" id="searchform" class="searchform form-inline" action="https://www.axisjp.co.jp/">
-													<div class="elementor-widget-container grid-layout">
-														<label for="name" class="text-align">アカウントＩＤ</label>
-														<input type="text" value="" name="name" id="name" class="form-control">
-													
-														<a href=""  class="text-align">パスワード変更　＞</a>
-													</div>																											
-												</form>
+													<div class="elementor-widget-container grid-layout">														
+														<div class="elementor-widget-container grid-layout-lv1">
+															<label for="name" class="text-align">アカウントＩＤ</label>
+															<input type="text" value="" name="name" id="name" class="form-control">
+															
+															<a href=""  class="text-align">パスワード変更　＞</a>
+														</div>	
+															
+														<div class="w3-card-4">
+															<header class="w3-container border-style">
+																<img width="20" height="20" src="img/arrow.png" onclick="show()">
+															</header>	
+															<div id="mydiv" >
+																<div class="elementor-widget-container grid-layout-lv1">
+																	<label for="name" class="text-align">アカウントＩＤ</label>
+																	<input type="text" value="" name="name" id="name" class="form-control">
+																	
+																	<a href=""  class="text-align">パスワード変更　＞</a>
+																	
+																</div>	
+															</div>													
+																													
+														</div>													
+													</div>
+												</form>	
 											</div>
 										</div>
 									</div>
@@ -138,7 +157,7 @@
 											</div>
 											<div>
 												<form role="search" method="get" id="searchform" class="searchform form-inline" action="https://www.axisjp.co.jp/">
-													<div class="elementor-widget-container grid-layout">
+													<div class="elementor-widget-container grid-layout-lv1">
 														<label for="email" class="text-align">メールアドレス</label>
 														<input type="text" value="" name="email" id="email" class="form-control">
 													
@@ -195,5 +214,15 @@
 	</footer>
 	<link rel="stylesheet" href="./css/style.css" type="text/css" media="all">
 </body>
-
+<script>
+	
+	function show() {
+	  var x = document.getElementById("mydiv");
+	  if (x.style.display === "none") {
+		x.style.display = "block";
+	  } else {
+		x.style.display = "none";
+	  }
+	}
+	</script>
 </html>

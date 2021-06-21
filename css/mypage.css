@@ -18,6 +18,14 @@ dl, ol, ul {
 
 .grid-layout {
 	display: grid;
+	grid-template-columns: 100%;
+	grid-gap: 10px;
+	padding: 10px;
+    justify-content: center;
+}
+
+.grid-layout-lv1 {
+	display: grid;
 	grid-template-columns: 22% 40%;
 	grid-gap: 10px;
 	padding: 10px;
@@ -34,4 +42,10 @@ dl, ol, ul {
 
 .elementor-text-align {
     text-align: left;
+}
+
+.border-style {
+    border-bottom-style: solid;
+    border-bottom-color: #4472C4;
+    text-align: right;
 }
