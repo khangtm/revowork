@@ -13,6 +13,10 @@
 	margin : 0  2em 0 0;
 }
 
+.contents h1:before {
+	background-color: #4A67A6;
+}
+
 .fbc-page{
 	padding: 10px 15px 0 0 !important;
 }
