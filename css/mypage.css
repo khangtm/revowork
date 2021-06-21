@@ -71,7 +71,7 @@ dl, ol, ul {
 .sidebar {
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 25%;
     background-color: #f1f1f1;
     /*position: fixed;*/
     height: auto;
@@ -95,11 +95,11 @@ dl, ol, ul {
     color: white;
   }
   
-  div.content {
+  .content {
     margin-left: 1px;
     padding: 1px 2px;
     height: auto;
-    width: 100%;
+    width: 74%;
   }
   
   @media screen and (max-width: 700px) {
@@ -109,7 +109,7 @@ dl, ol, ul {
       position: relative;
     }
     .sidebar a {float: left;}
-    div.content {margin-left: 0;}
+    .content {margin-left: 0;width: 100%;}
   }
   
   @media screen and (max-width: 400px) {
