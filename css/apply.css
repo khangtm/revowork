@@ -10,11 +10,11 @@
 }
 
 .contents h1{
-	margin : 0  2em 0 2em;
+	margin : 0  2em 0 0;
 }
 
-.fbc-wrap{
-	padding-left: 15px;
+.fbc-page{
+	padding: 10px 15px 0 0 !important;
 }
 
 dl, ol, ul {
@@ -55,7 +55,7 @@ dl, ol, ul {
 
 .grid-layout-columns-4 {
     display: grid;
-    grid-template-columns: 75% 20% 13% 26%;
+    grid-template-columns: 70% 20% 13% 26%;
     grid-column-gap: 15px;
 }
 
