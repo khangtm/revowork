@@ -2,13 +2,14 @@
     display: inline-block;
 }
 
+.fbc-page{
+	padding: 10px 15px 0 0 !important;
+}
+
 .contents h1{
 	margin : 0  2em 0 2em;
 }
 
-.fbc-wrap{
-	padding-left: 15px;
-}
 
 dl, ol, ul {
     margin-top: 40px;
@@ -17,7 +18,7 @@ dl, ol, ul {
 }
 
 .elementor-8171 .elementor-element.elementor-element-fbd9892 > .elementor-widget-container {
-    margin: 0rem 2rem 2rem 2rem;
+    margin: 1.5em 0 3em 0;
 }
 
 .elementor-widget-image {

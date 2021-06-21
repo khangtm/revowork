@@ -57,12 +57,15 @@
 														<div class="fbc-wrap">
 															<!-- Ordered list-->
 															<ol class="fbc-items" itemscope="" itemtype="https://schema.org/BreadcrumbList">																 
-																＞<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
-																	<a itemprop="item" page-parent="106" href="https://www.axisjp.co.jp/services" title="RevoWorks">
-																		<span itemprop="name">RevoWorks</span>
-																	</a>
-																	<meta itemprop="position" content="2">
-																</li>
+																<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+																	<span itemprop="name">
+																	<!-- Home Link -->
+																		<a itemprop="item" href="https://www.axisjp.co.jp">
+																			<i class="fa fa-home" aria-hidden="true"></i>トップ  
+																		</a>
+																	</span>
+																	<meta itemprop="position" content="1"><!-- Meta Position-->
+																 </li>
 																＞<li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
 																	<a itemprop="item" page-parent="106" href="https://www.axisjp.co.jp/services" title="マイページ">
 																		<span itemprop="name">マイページ</span>
@@ -101,9 +104,9 @@
 										<div class="elementor-element elementor-element-fbd9892 contents elementor-widget elementor-widget-heading" data-id="fbd9892"
 										 data-element_type="widget" data-widget_type="heading.default">
 											<div class="elementor-widget-container">
-												<h3 class="elementor-heading-title elementor-size-default">
+												<h1 class="elementor-heading-title elementor-size-default">
 													RevoWorks Browser 月額版　インストールのご案内　
-												</h3>
+												</h1>
 											</div>
 										</div>
 									</div>
@@ -125,9 +128,9 @@
 								<p class="checkagree">
 									<label>	
 										<span class="mwform-checkbox-field horizontal-item">
-											<input type="radio" id="not-agree" name="not-agree" value="not-agree">
+											<input type="radio" id="agree" name="agree" value="not-agree" onclick="handleClick(true)" checked>
 											<label for="not-agree" class="radio-margin">同意しない</label>
-											<input type="radio" id="agree" name="agree" value="agree" checked>
+											<input type="radio" id="agree" name="agree" value="agree" onclick="handleClick(false)">
 											<label for="agree">同意する</label>									
 										</span>
 									</label>
@@ -136,7 +139,7 @@
 						</dl>
 					</form>
 					<p class="enter">
-						<input type="submit" name="submitConfirm" value="インストール" class="formsubmit btn btn-primary" disabled>
+						<input id="mybutton" type="submit" name="submitConfirm" value="インストール" class="formsubmit btn btn-primary" disabled>
 					</p>				
 				</div>
 			</div>
@@ -149,5 +152,12 @@
 	</footer>
 	<link rel="stylesheet" href="./css/style.css" type="text/css" media="all">
 </body>
+
+<script>
+	document.getElementById("mybutton").disabled = true;
+	function handleClick(myRadio) {
+		document.getElementById("mybutton").disabled = myRadio;
+	}
+	</script>
 
 </html>
