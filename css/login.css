@@ -6,13 +6,10 @@
 	background-color: transparent;
 }
 
-.fbc-page {
-    padding: 15px 15px !important;
+.fbc-page{
+	padding: 10px 15px 0 0 !important;
 }
 
-.fbc-wrap{
-	padding-left: 15px;
-}
 
 .contents h1{
 	margin : 1.5em  2em 0 2em;

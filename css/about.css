@@ -6,8 +6,16 @@
 	margin : 0  2em 0 2em;
 }
 
-.fbc-wrap{
-	padding-left: 15px;
+.fbc-page{
+	padding: 10px 15px 0 0 !important;
+}
+
+.contents h1:before {
+	background-color: #4A67A6;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-bottom: 2em;
 }
 
 dl, ol, ul {
@@ -22,4 +30,15 @@ dl, ol, ul {
 
 .elementor-widget-image {
     margin-bottom: 16px;
+}
+
+.subSection-title:after, h3:after {
+    content: ".";
+    line-height: 0;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    bottom: -1px;
+    width: 30%;
+    border-bottom: 1px solid #337ab7;
 }
