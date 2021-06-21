@@ -59,7 +59,7 @@ dl, ol, ul {
 
 .grid-layout-columns-4 {
     display: grid;
-    grid-template-columns: 70% 20% 13% 26%;
+    grid-template-columns: 60% 20% 13% 26%;
     grid-column-gap: 15px;
 }
 
