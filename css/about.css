@@ -19,3 +19,7 @@ dl, ol, ul {
 .elementor-8171 .elementor-element.elementor-element-fbd9892 > .elementor-widget-container {
     margin: 0rem 2rem 2rem 2rem;
 }
+
+.elementor-widget-image {
+    margin-bottom: 16px;
+}
