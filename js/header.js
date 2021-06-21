@@ -20,7 +20,8 @@ document.write(`
                 <li id="menu-item-2174" style="padding-right: 20px;" class="inquiry menu-item menu-item-type-post_type menu-item-object-page menu-item-2174">お問い合わせ
                     <i class="fas fa-envelope"></i>
                 </li>
-                <li id="menu-item-2174" style="padding-right: 20px;" class="inquiry menu-item menu-item-type-post_type menu-item-object-page menu-item-2174">マイページ
+                <li id="menu-item-2174" style="padding-right: 20px;" class="inquiry menu-item menu-item-type-post_type menu-item-object-page menu-item-2174">
+                    <a href="mypage.html">マイページ</a>
                     <i class="fas fa-user"></i>
                 </li>
                 <li id="menu-item-2174" class="inquiry menu-item menu-item-type-post_type menu-item-object-page menu-item-2174">株式会社アクシス
