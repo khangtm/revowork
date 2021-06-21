@@ -6,8 +6,8 @@
 	margin : 0  2em 0 2em;
 }
 
-.fbc-wrap{
-	padding-left: 15px;
+.fbc-page{
+	padding: 10px 15px 0 0 !important;
 }
 
 dl, ol, ul {
@@ -48,4 +48,9 @@ dl, ol, ul {
     border-bottom-style: solid;
     border-bottom-color: #4472C4;
     text-align: right;
+}
+
+.text-align-href {
+    text-align: left;
+    margin: 0 0 2% 17%;
 }

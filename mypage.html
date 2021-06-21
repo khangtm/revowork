@@ -99,10 +99,10 @@
 									<div class="elementor-widget-wrap">
 										<div class="elementor-element elementor-element-fbd9892 contents elementor-widget elementor-widget-heading" data-id="fbd9892"
 										 data-element_type="widget" data-widget_type="heading.default">
-											<div class="elementor-widget-container">
-												<h3 class="elementor-heading-title elementor-size-default  elementor-text-align">
+											<div class="elementor-widget-container elementor-text-align">
+												<h1 class="elementor-heading-title elementor-size-default">
 													アカウント情報
-												</h3>
+												</h1>
 											</div>
 											<div>
 												<form role="search" method="get" id="searchform" class="searchform form-inline" action="https://www.axisjp.co.jp/">
@@ -116,13 +116,12 @@
 															
 														<div class="w3-card-4">
 															<header class="w3-container border-style">
-																<img width="20" height="20" src="img/arrow.png" onclick="show()">
+																<img id="imageid" width="30" height="30" src="img/arrow-1.png" onclick="show()">
 															</header>	
 															<div id="mydiv" >
 																<div class="elementor-widget-container grid-layout-lv1">
 																	<label for="name" class="text-align">アカウントＩＤ</label>
-																	<input type="text" value="" name="name" id="name" class="form-control">
-																	
+																	<input type="text" value="" name="name" id="name" class="form-control">																	
 																	<a href=""  class="text-align">パスワード変更　＞</a>
 																	
 																</div>	
@@ -150,10 +149,10 @@
 									<div class="elementor-widget-wrap">
 										<div class="elementor-element elementor-element-fbd9892 contents elementor-widget elementor-widget-heading" data-id="fbd9892"
 										 data-element_type="widget" data-widget_type="heading.default">
-											<div class="elementor-widget-container">
-												<h3 class="elementor-heading-title elementor-size-default elementor-text-align">
+											<div class="elementor-widget-container elementor-text-align">
+												<h1 class="elementor-heading-title elementor-size-default ">
 													マイページログイン情報
-												</h3>
+												</h1>
 											</div>
 											<div>
 												<form role="search" method="get" id="searchform" class="searchform form-inline" action="https://www.axisjp.co.jp/">
@@ -183,19 +182,22 @@
 									<div class="elementor-widget-wrap">
 										<div class="elementor-element elementor-element-fbd9892 contents elementor-widget elementor-widget-heading" data-id="fbd9892"
 										 data-element_type="widget" data-widget_type="heading.default">
-											<div class="elementor-widget-container">
-												<h3 class="elementor-heading-title elementor-size-default elementor-text-align">
+											<div class="elementor-widget-container elementor-text-align">
+												<h1 class="elementor-heading-title elementor-size-default ">
 													RevoWorks Browser月額版ソフト
-												</h3>
+												</h1>
 											</div>
-											<div class="grid-layout">
+											<div class="grid-layout-lv1" style="margin-top: -3em;">
 												<ul class="ul-font-size">
 													<li class="text-align">最新版インストール済み</li>
 													<li class="text-align" style="color: #A6A6A6;">アップデートが利用できます</li>
 													<li class="text-align" style="color: #A6A6A6;">インストール　</li>
 													<li class="text-align">アンインストール</li>
-												</ul>
+												</ul>												
 											</div>
+											<div class="text-align-href">
+												<a href="./install.html" >RevoWorks Browser 月額版インストール　＞</a>
+											</div>											
 										</div>
 									</div>
 								</div>
@@ -215,13 +217,16 @@
 	<link rel="stylesheet" href="./css/style.css" type="text/css" media="all">
 </body>
 <script>
-	
+	var x = document.getElementById("mydiv");
+	x.style.display = "none";
 	function show() {
 	  var x = document.getElementById("mydiv");
 	  if (x.style.display === "none") {
 		x.style.display = "block";
+		document.getElementById("imageid").src="img/arrow.png";
 	  } else {
 		x.style.display = "none";
+		document.getElementById("imageid").src="img/arrow-1.png";
 	  }
 	}
 	</script>
