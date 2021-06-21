@@ -1,0 +1,21 @@
+.fbc-page .fbc-items > li {
+    display: inline-block;
+}
+
+.contents h1{
+	margin : 0  2em 0 2em;
+}
+
+.fbc-wrap{
+	padding-left: 15px;
+}
+
+dl, ol, ul {
+    margin-top: 40px;
+    margin-bottom: 0;
+	padding: 0;
+}
+
+.elementor-8171 .elementor-element.elementor-element-fbd9892 > .elementor-widget-container {
+    margin: 0rem 2rem 2rem 2rem;
+}
