@@ -6,8 +6,12 @@
 	background-color: transparent;
 }
 
+input[type=submit] {
+	width: 30%;
+}
+
 .fbc-page{
-	padding: 1em 0 0 0 !important;
+	padding: 15px 15px 0 0 !important;
 }
 
 .contents h1{
@@ -29,7 +33,7 @@ dl, ol, ul {
 }
 
 .elementor-8171 .elementor-element.elementor-element-fbd9892 > .elementor-widget-container {
-    margin: 0 0 5px 0;
+    margin: 0 0 2rem 0;
 }
 
 .elementor-section-height {
@@ -58,7 +62,7 @@ dl, ol, ul {
 	background: #FEE6E7;
 	border: 1px solid #FEE6E7;
 	height: 60px;
-    width: 40em;
+    width: 37%;
 	padding: 20px;
 }	
  .text-align-label {
