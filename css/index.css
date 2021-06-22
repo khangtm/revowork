@@ -704,7 +704,6 @@ dt {
 
 .gradient-button {
     margin: 10px;
-    font-family: "Arial Black", Gadget, sans-serif;
     font-size: 20px;
     padding: 15px;
     text-align: center;
@@ -720,7 +719,7 @@ dt {
     cursor: pointer;
     display: inline-block;
 }
-.gradient-button-1 {background-image: linear-gradient(to right, #F39B40 0%, #F4B625 51%, #F39B40 100%)}
+.gradient-button-1 {background-image: linear-gradient(to right, #f39a40 0%, #f4b527 51%, #f39a40 100%)}
 
 .elementor-widget:not(:last-child) {
     margin-bottom: 0px;
