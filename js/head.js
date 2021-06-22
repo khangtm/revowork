@@ -1,4 +1,5 @@
 document.write(`
+<link rel="icon" href="./img/favicon.png" sizes="32x32">
 <link rel="stylesheet" id="parent-style-css" href="./css/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="common-style-css" href="./css/common.css" type="text/css" media="all">
 <link rel="stylesheet" id="design-style-css" href="./css/design.css" type="text/css" media="all">

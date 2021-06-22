@@ -9,19 +9,19 @@ document.write(`
                     <a href="about.html">RevoWorks Browserとは</a>
                 </li>
                 <li id="menu-item-2803" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2803">
-                    <a href="index.html">料金</a>
+                    <a href="#">料金</a>
                 </li>
                 <li id="menu-item-1861" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1861">
                     <a href="apply.html">お申し込み</a>
                 </li>
                 <li id="menu-item-2822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2822">
-                    <a href="index.html">サポート</a>
+                    <a href="#">サポート</a>
                 </li>
                 <li id="menu-item-2822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2822">
                     <a href="login.html">アカウント</a>
                 </li>
                 <li id="menu-item-2822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2822">
-                    <a href="index.html">よくあるご質問</a>
+                    <a href="#">よくあるご質問</a>
                 </li>
                 <li id="menu-item-2822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2822">
                     <a href="mypage.html">マイページ</a>
