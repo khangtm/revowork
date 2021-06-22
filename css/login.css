@@ -7,9 +7,8 @@
 }
 
 .fbc-page{
-	padding: 15px 15px 0 0 !important;
+	padding: 1em 0 0 0 !important;
 }
-
 
 .contents h1{
 	margin : 1.5em  2em 0 2em;
@@ -59,7 +58,7 @@ dl, ol, ul {
 	background: #FEE6E7;
 	border: 1px solid #FEE6E7;
 	height: 60px;
-    width: 37%;
+    width: 40em;
 	padding: 20px;
 }	
  .text-align-label {
